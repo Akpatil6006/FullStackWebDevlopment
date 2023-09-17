@@ -1,0 +1,101 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url("../assest/background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    
+    .logo img {
+        height: 35px;
+    }
+    
+    .nav-content ul {
+        display: flex;
+        gap: 40px;
+    }
+    
+    .nav-content ul li {
+        list-style: none;
+    }
+    
+    .nav-content ul li a {
+        text-decoration: none;
+        color: #f7c600;
+        font-weight: 600;
+    }
+    
+    .nav-btn button {
+        padding: 6px 22px;
+        background-color: #b02004;
+        color: #f5f0f0;
+        font-weight: 900;
+        border: none;
+    }
+    
+    .nav-btn button:hover {
+        background-color: #f5f0f0;
+        color: #b02004;
+        border: 2px solid #b02004;
+        font-weight: 900;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+    }
+    
+    .main-left-content {
+        margin: 3%;
+        width: 50%;
+    }
+    
+    .main-left-content h1 span {
+        margin-left: 15%;
+    }
+    
+    .main-left-content h1 {
+        color: #f7c600;
+        font-size: 46px;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .main-right-content {
+        margin-right: 15%;
+    }
+    
+    .main-right-content button {
+        padding: 10px 20px;
+        background-color: #b02004;
+        color: #f5f0f0;
+        font-weight: 900;
+        border: none;
+    }
+    
+    .main-right-content button:hover {
+        background-color: #f5f0f0;
+        color: #b02004;
+        border: 2px solid #b02004;
+        font-weight: 900;
+    }
+    
+    .bottam {
+        position: absolute;
+        bottom: 15px;
+        right: 25px;
+    }
