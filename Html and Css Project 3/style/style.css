@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    padding: 31px 83px;
+}
+
+.nav-content {
+    margin-right: 250px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* margin-right: 100px; */
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.logo img {
+    width: 92;
+    height: 30px;
+}
+
+.str-line {
+    width: 1px;
+    height: 48px;
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+.nav-btn button {
+    padding: 8px 20px;
+    background: #ba0cc5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* Main section css */
+
+.main {
+    background-image: url("../assests/bg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}
+
+.main-heading {
+    padding-top: 10.5%;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 70px;
+}
+
+.main-description {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 21px;
+    padding-top: 0.7%;
+}
+
+.main-btn {
+    padding: 10px 20px;
+    margin: 2.5%;
+    background-color: #ba0cc5;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
